@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Recipe App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_buy_recipes">Buy Recipes</string>
+    <string name="menu_my_items">My Recipes</string>
+    <string name="menu_rate_us">Rate Us</string>
+    <string name="menu_share_app">Share App</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="subscribed_to_email">Email Notifications</string>
+
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="logout"> Log out</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="welcome_back">Welcome back</string>
+
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="remove_from_cart">Remove from Cart</string>
+    <string name="proceed_to_checkout">Buy all</string>
+
+    <string name="go_to_cart">Go to Cart</string>
+
+    <string name="could_not_fetch">There was a problem\nfetching the data\n\nTap to retry</string>
+    <string name="no_items_in_cart">There was no items\nin your cart</string>
+    <string name="no_items_at_all">You have no\nrecipes</string>
+
+    <string name="purchase_successful">Purchase successful</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buy_recipe">Buy Recipe</string>
+    <string name="my_cart">My Cart</string>
+    <string name="my_recipes">My Recipes</string>
+    <string name="loading_please_wait">Loading... Please wait</string>
+
+</resources>

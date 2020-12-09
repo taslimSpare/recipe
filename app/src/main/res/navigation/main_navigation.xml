@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.caavo.recipeapp.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_marketFragment"
+            app:destination="@id/marketFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_myItemsFragment"
+            app:destination="@id/myItemsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.caavo.recipeapp.ui.fragments.MarketFragment"
+        android:label="fragment_market"
+        tools:layout="@layout/fragment_market" >
+        <action
+            android:id="@+id/action_marketFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_marketFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.caavo.recipeapp.ui.fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment_to_myItemsFragment"
+            app:destination="@id/myItemsFragment" />
+        <action
+            android:id="@+id/action_cartFragment_to_marketFragment"
+            app:destination="@id/marketFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myItemsFragment"
+        android:name="com.caavo.recipeapp.ui.fragments.MyItemsFragment"
+        android:label="fragment_my_items"
+        tools:layout="@layout/fragment_my_items" >
+        <action
+            android:id="@+id/action_myItemsFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+</navigation>
